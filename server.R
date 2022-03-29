@@ -1,3 +1,5 @@
+library(markdown)
+
 server <- function(input, output,session) {
   
   tr_data <-  reactive({
